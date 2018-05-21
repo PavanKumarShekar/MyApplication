@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/thief" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/sos" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/police" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/slide_title"
+            android:layout_marginTop="20dp"
+            android:text="@string/slide_2_title"
+            android:textColor="#FF1A1A"
+            android:textSize="@dimen/slide_title"
+            android:textStyle="bold" />
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:paddingLeft="@dimen/desc_padding"-->
+        <!--android:paddingRight="@dimen/desc_padding"-->
+        <!--android:text="@string/slide_2_desc"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="@dimen/slide_desc" />-->
+    </LinearLayout>
+</RelativeLayout>

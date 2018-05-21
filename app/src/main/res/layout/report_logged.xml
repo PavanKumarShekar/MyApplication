@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/llSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Successfully Logged!"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/llSuccess"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvquestionone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="hey"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvquestiontwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="hey"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvquestionthree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="hey"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+        <TextView
+        android:id="@+id/tvquestionfour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="hey"
+            android:layout_marginRight="20dp"
+        android:textSize="20dp"
+        android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tvquestionother"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="hey"
+            android:textSize="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="GO HOME"
+        android:textColor="#ffffff"
+
+        >
+
+
+    </Button>
+</RelativeLayout>

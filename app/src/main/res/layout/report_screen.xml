@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llwhathapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What Happened?"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+      android:layout_below="@+id/llwhathapp"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+
+                android:id="@+id/rbone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:buttonTint="@color/colorPrimaryDark"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Elevator Malfunction"
+                    android:textColor="#6D6D6D"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtwo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:buttonTint="@color/colorPrimaryDark"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fire Hazard"
+                    android:textColor="#6D6D6D"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbthree"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:buttonTint="@color/colorPrimaryDark"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Robbery"
+                    android:textColor="#6D6D6D"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbfour"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:buttonTint="@color/colorPrimaryDark"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sexual Assault"
+                    android:textColor="#6D6D6D"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbfive"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:buttonTint="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other"
+
+                    android:textColor="#6D6D6D"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="NEXT"
+        android:textColor="#ffffff"
+
+        >
+
+
+    </Button>
+</RelativeLayout>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llElevator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robbery"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_below="@+id/llElevator"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/btsubmit"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Which block of the campus did the incident occur?"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+android:id="@+id/rbblocka"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:buttonTint="@color/colorPrimaryDark"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="BLOCK A"
+                            android:textColor="#6D6D6D"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+                            android:id="@+id/rbblockb"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:buttonTint="@color/colorPrimaryDark"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="BLOCK B"
+                            android:textColor="#6D6D6D"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+android:id="@+id/rbblockc"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:buttonTint="@color/colorPrimaryDark"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="BLOCK C"
+                            android:textColor="#6D6D6D"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+                            android:id="@+id/rbblockd"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:buttonTint="@color/colorPrimaryDark"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="BLOCK D"
+                            android:textColor="#6D6D6D"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+                            android:id="@+id/rbother"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:buttonTint="@color/colorPrimaryDark"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Other"
+                            android:textColor="#6D6D6D"
+                            android:textSize="15sp" />
+
+
+                    </LinearLayout>
+                    <EditText
+
+                        android:id="@+id/etother"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/border"
+                        android:gravity="top|start"
+                        android:hint="type here..."
+                        android:lineSpacingExtra="5dp"
+                        android:padding="20dp"
+                        android:textColor="#AAAAAA"
+                        android:textColorHint="#AAAAAA"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="How many suspects?"
+                    android:textSize="15sp" />
+
+                <EditText
+
+                    android:id="@+id/etsuspects"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:gravity="top|start"
+                    android:hint="type here..."
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:textColor="#AAAAAA"
+                    android:textColorHint="#AAAAAA"
+                    android:textSize="14sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Was the suspect armed?"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+
+                            android:id="@+id/rbyes"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:buttonTint="@color/colorPrimaryDark"
+
+                            />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="YES"
+                            android:textColor="#6D6D6D"
+                            android:textSize="15sp" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+
+                            android:id="@+id/rbno"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:buttonTint="@color/colorPrimaryDark"
+
+                            />
+
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NO"
+                            android:textColor="#6D6D6D"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp" />
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Describe the incident and stolen goods"
+                    android:textSize="15sp" />
+
+                <EditText
+android:id="@+id/etincident"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:gravity="top|start"
+                    android:hint="type here..."
+                    android:lineSpacingExtra="5dp"
+                    android:padding="20dp"
+                    android:textColor="#AAAAAA"
+                    android:textColorHint="#AAAAAA"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:text="SUBMIT"
+        android:textColor="#ffffff"
+
+        >
+
+
+    </Button>
+</RelativeLayout>
